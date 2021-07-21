@@ -52,6 +52,7 @@ workflows:
             branches:
               only:
                 - "master"
+                - "perftest-cli-to-api-master"
       - grace_daily:
           requires:
             - build
